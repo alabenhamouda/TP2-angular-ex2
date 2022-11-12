@@ -13,7 +13,7 @@ export class RainbowColorDirective {
     'rgb(166, 57, 51)',
   ];
 
-  @HostBinding('style.color') textColor: string = 'transparent';
+  @HostBinding('style.color') textColor: string = 'black';
   @HostBinding('style.borderColor') borderColor: string = 'black';
   constructor() {}
 
